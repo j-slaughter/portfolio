@@ -4,12 +4,22 @@
   "description": "my custom website",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
+    "build": "webpack",
+    "dev": "webpack-dev-server --mode development --open --hot",
     "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/j-slaughter"
+    "url": "https://github.com/j-slaughter/personal-website.git"
   },
-  "author": "j-slaughter",
-  "license": "ISC"
+  "author": "Jennifer Slaughter",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.95.0"
+  }
 }
