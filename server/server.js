@@ -3,10 +3,12 @@ const app = express();
 const path = require('path');
 const PORT = 3000;
 
+// statically serve everything in build folder
+app.use('/build', express.static(path.join(__dirname, '../build')));
+
 app.get('/', (req, res) => {
     //Landing page
-    res.send('Welcome, World!');
-    //return res.sendFile(path.join(__dirname, './index.html'));
+    return res.status(200).sendFile(path.join(__dirname, '../index.html'));
 });
 
 // Server listening on port
