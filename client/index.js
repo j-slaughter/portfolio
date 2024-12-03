@@ -1,10 +1,16 @@
-import './style.css';
+/**
+ * @module index.js
+ * @description entry point for react application
+ */
 
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = "Box";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.jsx';
+import './style.css'
 
-    return element;
-}
+// Render React app off of 'root' element using DOM manipulation
+const root = createRoot(document.getElementById('root'));
 
-document.body.appendChild(component());
+root.render(
+    <App />
+);

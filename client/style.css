@@ -1,3 +1,11 @@
-div {
-    background-color: plum;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    @apply text-white;
 }
