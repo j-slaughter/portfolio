@@ -3,11 +3,11 @@ const app = express();
 const path = require('path');
 const PORT = 3000;
 
-// statically serve everything in build folder
-app.use('/build', express.static(path.join(__dirname, '../build')));
+// serve static files in build folder
+app.use(express.static(path.join(__dirname, '../build')));
 
+// Landing page
 app.get('/', (req, res) => {
-    //Landing page
     return res.status(200).sendFile(path.join(__dirname, '../index.html'));
 });
 
