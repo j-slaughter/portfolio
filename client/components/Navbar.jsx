@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div className='fixed top-0 left-0 w-full backdrop-blur-md bg-opacity-70 z-50'>
-            <div className='bg-green-200 text-purple-200 text-xl flex justify-between items-center mx-auto px-12 h-12' >
+            <div className='text-teal-200 text-xl flex justify-between items-center mx-auto px-12 h-20' >
                 <a href='#'>Logo</a>
                 <ul className='hidden md:flex gap-12 z-10' >
                     <li><Link to='skills' smooth={true} offset={50} duration={500}>About</Link></li>
