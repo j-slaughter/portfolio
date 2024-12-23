@@ -12,4 +12,4 @@ This is the toolkit I plan on utilizing to build out the project:
  - Webpack
  - Tailwind
 
-### Forget Social Media, if you don't have your own custom website....do you even code, bro?
+*Forget Social Media, if you don't have your own custom website....do you even code, bro?*
