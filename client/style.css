@@ -14,7 +14,7 @@ h2 {
 }
 
 span {
-    @apply text-teal-500;
+    @apply text-amber-200;
 }
 
 p {
