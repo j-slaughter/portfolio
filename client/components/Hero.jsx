@@ -8,6 +8,7 @@ import { motion } from 'motion/react';
 import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai';
 import { TypeAnimation } from 'react-type-animation';
 import wildflowers from '../assets/flowers.png';
+import headshot from '../assets/hsmall.png';
 
 const Hero = () => {
     return (
@@ -65,8 +66,11 @@ const Hero = () => {
                 initial={{opacity: 0, y: 50}} 
                 whileInView={{opacity: 1, y: 0}}
                 viewport={{once: true}}
-                transition={{duration: 2}}>
+                transition={{duration: 2}}
+                className='relative'>
                     <img src={wildflowers}/>
+                    <img className='border-double border-4 rounded-2xl absolute right-10 top-20' src={headshot}/>
+                    
                 </motion.div>
             </div>
         </div>
