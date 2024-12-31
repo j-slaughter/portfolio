@@ -5,10 +5,12 @@
 
 import React from 'react';
 
+const year = new Date().getFullYear();
+
 const Footer = () => {
     return (
         <div>
-            <p>Copyright © 2024</p>
+            <p>Copyright © {year}</p>
         </div>
     );
 };

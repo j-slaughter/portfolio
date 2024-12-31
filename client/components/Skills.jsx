@@ -21,7 +21,7 @@ const Skills = () => {
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
             viewport={{once: true}}
-            transition={{duration: 1, delay: 2}}
+            transition={{duration: 1, delay: 0.5}}
             className='flex flex-row justify-center items-center gap-4 text-slate-300 text-4xl z-20'>
                 <p>Tech Skills:</p>
                 <DiHtml5 className='text-orange-600'/>

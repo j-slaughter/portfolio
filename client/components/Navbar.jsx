@@ -29,6 +29,7 @@ const Navbar = () => {
                 </div>
                 {/* Animated menu */}
                 <motion.div 
+                initial={false}
                 animate={nav ? 'open' : 'closed'}
                 variants={{open: {x : 0}, closed: {x : '-100%'}}}
                 transition={{stiffness: 20, damping: 15}}
