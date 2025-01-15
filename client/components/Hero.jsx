@@ -13,7 +13,7 @@ import headshot from '../assets/hsmall.png';
 
 const Hero = () => {
     return (
-        <div className='mt-28 max-w-[1200px] mx-auto relative'>
+        <div className='mt-28 max-w-[1200px] mx-auto relative' id='about'>
             <div className='grid md:grid-cols-2 mx-4 place-items-center gap-4'>
                 <motion.div 
                 initial={{opacity: 0, y: -50}} 
