@@ -28,3 +28,7 @@ p {
 .breakEffect {
     @apply mt-2 w-full h-4 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-200 to-teal-950;
 }
+
+.formInput {
+    @apply mb-2 w-full rounded-md border-teal-600 py-2 pl-2 pr-4;
+}
