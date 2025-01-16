@@ -11,3 +11,4 @@ This is the toolkit I plan on utilizing to build out the project:
  - React
  - Webpack
  - Tailwind
+ 
