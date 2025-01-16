@@ -81,7 +81,7 @@ const Hero = () => {
                 transition={{duration: 2}}
                 className='relative'>
                     <img src={wildflowers}/>
-                    <img className='border-double border-4 rounded-2xl absolute right-10 top-20 w-[150px] sm:w-[300px] md:w-[250px] lg:w-[350px]' src={headshot}/>
+                    <img className='border-double border-4 rounded-2xl absolute right-10 top-20 w-[200px] sm:w-[300px] md:w-[250px] lg:w-[350px]' src={headshot}/>
                     
                 </motion.div>
             </div>
