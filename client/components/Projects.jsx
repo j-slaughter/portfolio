@@ -81,7 +81,7 @@ const Projects = () => {
             ))}
             
         </div>
-        <div className='mt-2 w-full h-4 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-200 to-teal-950'></div></>
+        <div className='breakEffect'></div></>
     );
 };
 

@@ -32,7 +32,7 @@ const Skills = () => {
                 <DiDocker className='text-6xl text-blue-600'/>
                 <DiMongodb className='text-green-400'/>
             </motion.div>
-            <div className='mt-2 w-full h-4 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-200 to-teal-950'></div>
+            <div className='breakEffect'></div>
         </div>
     );
 };
