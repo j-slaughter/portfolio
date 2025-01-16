@@ -5,7 +5,7 @@
 
 import React from 'react';
 import rediwatch from '../assets/rediwatch.png';
-import spareoom from '../assets/spare.png';
+import spareoom from '../assets/spareoom.png';
 import dragonite from '../assets/dragonite.png';
 import travelotl from '../assets/travelotl.png';
 import skillswap from '../assets/skillswap.png';
@@ -18,7 +18,7 @@ const projects = [
         description: "Redis cache visualization tool for optimization of cache invalidation.",
         links: {
             site: '#',
-            github: '#',
+            github: 'https://github.com/oslabs-beta/RediWatch',
         },
     },
     {
@@ -36,7 +36,7 @@ const projects = [
         description: "Virtual gym app that allows users to search for and save exercises and chat message other gym enthusiasts.",
         links: {
             site: '#',
-            github: '#',
+            github: 'https://github.com/DragoniteGym/dragonite-gym',
         },
     },
     {
@@ -45,7 +45,7 @@ const projects = [
         description: "AI-generated travel itinerary. Uses OpenAi to generate custom travel plans according to user selections.",
         links: {
             site: '#',
-            github: '#',
+            github: 'https://github.com/CN-Kids-Next-Door/Travelotl',
         },
     },
     {
@@ -54,14 +54,14 @@ const projects = [
         description: "Co-op learning website where users share skill knowledge by uploading videos.",
         links: {
             site: '#',
-            github: '#',
+            github: 'https://github.com/Star-Nose-Mole-Rat/SkillSwap',
         },
     },
 ];
 
 const Projects = () => {
     return (
-        <div className='max-w-[1200px] mx-auto p-6 md:my-20' id='projects'>
+        <><div className='max-w-[1200px] mx-auto p-6 md:my-20' id='projects'>
             <h2 className='text-3xl font-semibold text-slate-300 mb-8'>Portfolio</h2>
             {/*Load Projects*/}
             {projects.map((project, i) => (
@@ -75,7 +75,9 @@ const Projects = () => {
                     </div>
                 </div>
             ))}
+            
         </div>
+        <div className='mt-2 w-full h-4 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-teal-200 to-teal-950'></div></>
     );
 };
 
