@@ -9,7 +9,7 @@ import spareoom from '../assets/spareoom.png';
 import dragonite from '../assets/dragonite.png';
 import travelotl from '../assets/travelotl.png';
 import skillswap from '../assets/skillswap.png';
-import { AiFillGithub } from 'react-icons/ai';
+import { AiOutlineGithub } from 'react-icons/ai';
 
 const projects = [
     {
@@ -27,7 +27,7 @@ const projects = [
         description: "Film location travel planner website. Find the real-life places of your favorite films.",
         links: {
             site: '#',
-            github: '#',
+            github: 'https://github.com/j-slaughter/spare-oom-solo-project',
         },
     },
     {
@@ -72,6 +72,10 @@ const Projects = () => {
                     <div className='w-full md:w-1/2 p-4 flex flex-col justify-center'>
                         <h3 className='text-2xl font-semibold text-amber-200 mb-4'>{project.title}</h3>
                         <p className='text-slate-300'>{project.description}</p>
+                        <a href={project.links.github} target='_blank'
+                        className='text-2xl py-2 text-slate-200'>
+                            <AiOutlineGithub />
+                        </a>
                     </div>
                 </div>
             ))}
