@@ -51,7 +51,7 @@ const Hero = () => {
                     className='text-slate-300 tracking-tight mb-8 text-lg md:text-xl'>
                         I'm a fullstack software engineer with a passion for problem-solving 
                         and creative engineering. My career goal has always been to pursue challenging 
-                        and enjoyable work that always me to leverage my skills to create meaningful 
+                        and enjoyable work that allows me to leverage my skills to create meaningful 
                         contributions to society. Check out my portfolio to see some of my 
                         previous projects. Thanks for stopping by my little corner of the internet!
                     </motion.p>
