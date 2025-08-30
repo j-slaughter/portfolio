@@ -61,12 +61,12 @@ const Hero = () => {
                     viewport={{once: true}}
                     transition={{duration: 1, delay: 1}}
                     className='flex gap-6 justify-center items-center'>
-                        <motion.a
+                        {/*<motion.a
                         whileHover={{scale: 1.05, boxShadow: "0px 0px 8px rgba(232, 232, 42, 0.44)"}}
                         href={process.env.RESUME_DOC} target='_blank'
                         className='z-10 font-bold text-slate-300 md:w-auto p-2 border border-amber-200 rounded-lg'>
                             <div className='flex gap-2 items-center'><FaFileDownload/> Résumé</div>
-                        </motion.a>
+                        </motion.a>*/}
                         <div className='flex gap-6 flex-row text-4xl text-amber-200 z-20'>
                             <motion.a whileHover={{scale: 1.2}} href='https://github.com/j-slaughter' target='_blank'><AiOutlineGithub/></motion.a>
                             <motion.a whileHover={{scale: 1.2}} href='https://www.linkedin.com/in/j-slaughter' target='_blank'><AiOutlineLinkedin/></motion.a>
